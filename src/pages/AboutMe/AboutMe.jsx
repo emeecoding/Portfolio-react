@@ -19,6 +19,7 @@ export const AboutMe = () => {
                 </div>
                 <div className="txt-aboutMe">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, quas reiciendis blanditiis id, laudantium cumque corporis maiores odio dicta ut quibusdam itaque eum necessitatibus dolore pariatur, nisi beatae magnam suscipit.</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, quas reiciendis blanditiis id, laudantium cumque corporis maiores odio dicta ut quibusdam itaque eum necessitatibus dolore pariatur, nisi beatae magnam suscipit.</p>
                 </div>
             </div>
 
