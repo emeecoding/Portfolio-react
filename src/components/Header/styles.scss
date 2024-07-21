@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    z-index: 1;
+
+        div.logo {
+
+            a {
+                color: #fff;
+                font-size: 2rem;
+
+                span {
+                    color: #6172f2;
+                }
+            }
+        }
+
+        nav.menu-desktop {
+
+            ul {
+                display: flex;
+                gap: 2rem;
+
+            }
+
+            li {
+
+                a {
+                    color: #fff;
+                    font-size: 1.5rem;
+                    padding: 10px;
+                    transition: .1s;
+                }
+
+                a:hover {
+                    background-color: #6172f2;
+                }
+            }
+        }
+
+        .rede-sociais {
+            .icon {
+                color: #6172f2;
+                margin: 1rem;
+                font-size: 1.7rem;
+                cursor: pointer;
+            }
+
+            .icon:hover {
+                transform: scale(1.05);
+            }
+
+        }
+    }
+
+
+// Responsividade 
+
+
+@media screen and (max-width: 1280px) {
+
+    header{
+        height: 3rem;
+
+        div.logo {
+
+            a {
+                font-size: 1.5rem;
+            }
+        }
+
+        nav.menu-desktop, .icon {
+            display: none;
+        }
+
+    }
+
+}
+
+
