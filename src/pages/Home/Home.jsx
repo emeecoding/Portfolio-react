@@ -7,7 +7,7 @@ import "./styles.scss"
 
 export const Home = () => {
     return (
-        <section>
+        <section id="section-home">
             <div className="txt-topo-site">
                 <h1> <span>Olá</span>, Eu sou Emerson Santos</h1>
                 <p>Developer Front-end</p>

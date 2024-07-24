@@ -1,27 +1,28 @@
-section {
+section#section-home {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
+    background-color: #000;
 
     div.txt-topo-site {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        width: 50%;
+        width: 60%;
         height: 500px;
         gap: 1rem;
 
         h1 {
             text-align: center;
             color: #fff;
-            font-size: 4rem;
-            width: 500px;
+            font-size: 4.5rem;
+            width: 600px;
 
             span {
-                color: #6172f2;
+                color: #40f53d;
             }
         }
 
@@ -29,7 +30,7 @@ section {
 
             font-size: 1.5rem;
             text-transform: uppercase;
-            color: #6172f2;
+            color: #40f53d;
             letter-spacing: .5rem;
             width: 443px;
 
@@ -57,14 +58,13 @@ section {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 600px;
-        height: 600px;
-        background-color: #6172f2;
-        border-radius: 50%;
+        width: 50%;
+        height: 100vh;
+        background-color: #40f53d;
 
         img {
             width: 500px;
-            padding: 1rem;
+            filter: drop-shadow(5px 5px 5px #40f53d);
         }
     }
 }
@@ -92,11 +92,13 @@ section {
 
 
         div.img-topo-site-banner {
-            transform: translateY(30%);
-            width: 300px;
+            transform: translateY(50%);
+            width: 250px;
+            height: 250px;
 
             img {
-                width: 300px;
+                width: 230px;
+                padding: 10px;
             }
         }
     }

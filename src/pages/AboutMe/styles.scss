@@ -1,17 +1,21 @@
-section#About-me {
+section#about-me {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 1rem;
 
 
     .title-aboutMe {
 
         h2 {
             color: #fff;
-            font-size: 3.5rem;
-            border-bottom: 6px solid #6172f2;
+            font-size: 2.5rem;
+            border-bottom: 6px solid #40f53d;
             border-radius: 15%;
-            border-top: 6px solid #6172f2;
+            border-top: 6px solid #40f53d;
+
         }
     }
 
@@ -23,18 +27,19 @@ section#About-me {
         gap: 8rem;
 
         div.img-aboutMe {
-            width: 500px;
+            width: 450px;
             background: transparent;
-            border: 5px solid #fff;
+            border: 5px solid #40f53d;
 
             img {
                 transform: translate(10%, 10%);
-                border: 5px solid #6172f2;
+                border: 5px solid #000;
             }
         }
 
         div.txt-aboutMe {
             width: 50%;
+
             p {
                 color: #fff;
                 font-size: 1.7rem;

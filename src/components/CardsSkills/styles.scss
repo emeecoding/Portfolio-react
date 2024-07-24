@@ -1,0 +1,26 @@
+.card {
+    width: 250px;
+    height: 250px;
+    
+    border: 3px solid #40f53d;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+
+    transition: .3s;
+
+
+    img {
+        width: 100px;
+
+    }
+
+    span {
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+}
